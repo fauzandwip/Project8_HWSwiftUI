@@ -15,6 +15,7 @@
 		7BD0CE232A3319A600571916 /* ScrollViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE222A3319A600571916 /* ScrollViewView.swift */; };
 		7BD0CE252A331FC600571916 /* NavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE242A331FC600571916 /* NavigationLink.swift */; };
 		7BD0CE292A332A7E00571916 /* CodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE282A332A7E00571916 /* CodableView.swift */; };
+		7BD0CE2B2A332C5100571916 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE2A2A332C5100571916 /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7BD0CE222A3319A600571916 /* ScrollViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewView.swift; sourceTree = "<group>"; };
 		7BD0CE242A331FC600571916 /* NavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLink.swift; sourceTree = "<group>"; };
 		7BD0CE282A332A7E00571916 /* CodableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableView.swift; sourceTree = "<group>"; };
+		7BD0CE2A2A332C5100571916 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				7BD0CE222A3319A600571916 /* ScrollViewView.swift */,
 				7BD0CE242A331FC600571916 /* NavigationLink.swift */,
 				7BD0CE282A332A7E00571916 /* CodableView.swift */,
+				7BD0CE2A2A332C5100571916 /* GridView.swift */,
 				7BD0CE162A33131B00571916 /* Assets.xcassets */,
 				7BD0CE182A33131B00571916 /* Preview Content */,
 			);
@@ -152,6 +155,7 @@
 				7BD0CE152A33131900571916 /* ContentView.swift in Sources */,
 				7BD0CE292A332A7E00571916 /* CodableView.swift in Sources */,
 				7BD0CE232A3319A600571916 /* ScrollViewView.swift in Sources */,
+				7BD0CE2B2A332C5100571916 /* GridView.swift in Sources */,
 				7BD0CE252A331FC600571916 /* NavigationLink.swift in Sources */,
 				7BD0CE132A33131900571916 /* MoonshotApp.swift in Sources */,
 				7BD0CE212A33156700571916 /* GeometryReaderView.swift in Sources */,
