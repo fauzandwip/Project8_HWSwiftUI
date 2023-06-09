@@ -21,6 +21,7 @@
 		7BD0CE342A336F7600571916 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE332A336F7600571916 /* Bundle-Decodable.swift */; };
 		7BD0CE362A336FB800571916 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE352A336FB800571916 /* Astronaut.swift */; };
 		7BD0CE3A2A33743400571916 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE392A33743400571916 /* Mission.swift */; };
+		7BD0CE3C2A337F5700571916 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE3B2A337F5700571916 /* Color-Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		7BD0CE332A336F7600571916 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		7BD0CE352A336FB800571916 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		7BD0CE392A33743400571916 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		7BD0CE3B2A337F5700571916 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				7BD0CE382A3370EB00571916 /* Model */,
 				7BD0CE372A3370E000571916 /* View */,
 				7BD0CE332A336F7600571916 /* Bundle-Decodable.swift */,
+				7BD0CE3B2A337F5700571916 /* Color-Theme.swift */,
 				7BD0CE2C2A33368A00571916 /* Introduction */,
 				7BD0CE162A33131B00571916 /* Assets.xcassets */,
 				7BD0CE2D2A3341B200571916 /* astronauts.json */,
@@ -195,6 +198,7 @@
 			files = (
 				7BD0CE362A336FB800571916 /* Astronaut.swift in Sources */,
 				7BD0CE152A33131900571916 /* ContentView.swift in Sources */,
+				7BD0CE3C2A337F5700571916 /* Color-Theme.swift in Sources */,
 				7BD0CE292A332A7E00571916 /* CodableView.swift in Sources */,
 				7BD0CE232A3319A600571916 /* ScrollViewView.swift in Sources */,
 				7BD0CE342A336F7600571916 /* Bundle-Decodable.swift in Sources */,

@@ -14,6 +14,19 @@ struct Mission: Codable, Identifiable {
     }
     
     var id: Int
+    var launchDate: Date?
     var crew: [CrewRole]
     var description: String
+    
+    var displayName: String {
+        "Apollo \(id)"
+    }
+    
+    var formattedLaunchDate: String {
+        launchDate?.formatted(date: .abbreviated, time: .omitted) ?? "N/A"
+    }
+    
+    var imageName: String {
+        "apollo\(id)"
+    }
 }
