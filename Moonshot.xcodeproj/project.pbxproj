@@ -20,6 +20,7 @@
 		7BD0CE302A3341B200571916 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BD0CE2E2A3341B200571916 /* missions.json */; };
 		7BD0CE342A336F7600571916 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE332A336F7600571916 /* Bundle-Decodable.swift */; };
 		7BD0CE362A336FB800571916 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE352A336FB800571916 /* Astronaut.swift */; };
+		7BD0CE3A2A33743400571916 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD0CE392A33743400571916 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7BD0CE2E2A3341B200571916 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		7BD0CE332A336F7600571916 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		7BD0CE352A336FB800571916 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		7BD0CE392A33743400571916 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				7BD0CE352A336FB800571916 /* Astronaut.swift */,
+				7BD0CE392A33743400571916 /* Mission.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				7BD0CE2B2A332C5100571916 /* GridView.swift in Sources */,
 				7BD0CE252A331FC600571916 /* NavigationLink.swift in Sources */,
 				7BD0CE132A33131900571916 /* MoonshotApp.swift in Sources */,
+				7BD0CE3A2A33743400571916 /* Mission.swift in Sources */,
 				7BD0CE212A33156700571916 /* GeometryReaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
