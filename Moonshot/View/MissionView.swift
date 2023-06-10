@@ -13,6 +13,7 @@ struct MissionView: View {
         let astronaut: Astronaut
     }
     
+    let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     var mission: Mission
     let crew: [CrewMember]
     
@@ -50,13 +51,14 @@ struct MissionView: View {
                         }
                     }
                     .padding(.horizontal)
+                    .padding(.bottom, 5)
                         
                     // Crew
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
                             ForEach(crew, id: \.role) { crewMember in
                                 NavigationLink {
-                                    Text("Astronaut Details")
+                                    AstronautView(astronaut: crewMember.astronaut)
                                 } label: {
                                     HStack {
                                         Image(crewMember.astronaut.id)
@@ -81,17 +83,17 @@ struct MissionView: View {
                             }
                         }
                     }
+                    .padding(.bottom)
                 }
-                .padding(.bottom)
             }
             .navigationTitle(mission.displayName)
             .navigationBarTitleDisplayMode(.inline)
             .background(.darkBackground)
     }
-    
+
     init(mission: Mission, astronauts: [String: Astronaut]) {
         self.mission = mission
-        
+
         self.crew = mission.crew.map { member in
             if let astronaut = astronauts[member.name] {
                 return CrewMember(role: member.role, astronaut: astronaut)
