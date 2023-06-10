@@ -11,7 +11,7 @@ struct CrewMemberView: View {
     let crewMember: MissionView.CrewMember
     
     var body: some View {
-        HStack {
+        HStack(spacing: 10) {
             Image(crewMember.astronaut.id)
                 .resizable()
                 .frame(width: 104, height: 72)
