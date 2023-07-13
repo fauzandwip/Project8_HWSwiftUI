@@ -12,7 +12,7 @@ struct CrewMemberView: View {
     
     var body: some View {
         HStack(spacing: 10) {
-            Image(crewMember.astronaut.id)
+            Image(decorative: crewMember.astronaut.id)
                 .resizable()
                 .frame(width: 104, height: 72)
                 .clipShape(Capsule())

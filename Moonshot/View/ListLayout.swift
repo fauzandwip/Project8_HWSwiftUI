@@ -25,12 +25,13 @@ struct ListLayout: View {
                         
                         // cell
                         HStack {
-                                Image(mission.imageName)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 100,height: 100)
-                                    .padding()
-//                                    .background(.lightBackground)
+                            // challenge project 15 - Accessibility VoiceOver
+                            Image(decorative: mission.imageName)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 100,height: 100)
+                                .padding()
+//                                .background(.lightBackground)
                             
                             HStack {
                                 Spacer()
@@ -55,6 +56,9 @@ struct ListLayout: View {
                             RoundedRectangle(cornerRadius: 40)
                                 .strokeBorder(.lightBackground, lineWidth: 2)
                         }
+                        // challenge project 15 - Accessibility VoiceOver
+                        .accessibilityElement()
+                        .accessibilityLabel("\(mission.displayName), \(mission.formattedLaunchDate)")
                     }
                 }
                 .listRowBackground(Color.darkBackground)

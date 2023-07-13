@@ -12,7 +12,7 @@ struct LogoView: View {
     let geo: GeometryProxy
     
     var body: some View {
-        Image(mission.imageName)
+        Image(decorative: mission.imageName)
             .resizable()
             .scaledToFit()
             .frame(maxWidth: geo.size.width * 0.6)

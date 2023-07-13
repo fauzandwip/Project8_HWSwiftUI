@@ -23,6 +23,9 @@ struct MissionView: View {
                     VStack {
                         // Logo
                         LogoView(mission: mission, geo: geo)
+                        // challenge project 15 - Accessibility VoiceOver
+                            .accessibilityElement()
+                            .accessibilityLabel(mission.formattedLaunchDate)
                         
                         // Mission Highlights
                         VStack(alignment: .leading) {
@@ -45,6 +48,10 @@ struct MissionView: View {
                             Text("Crew")
                                 .font(.title.bold())
                         }
+                        // challenge project 15 - Accessibility VoiceOver
+                        .accessibilityElement()
+                        .accessibilityLabel("Mission Highlights")
+                        .accessibilityHint(mission.description)
                     }
                     .padding(.horizontal)
                     .padding(.bottom, 5)
@@ -57,6 +64,11 @@ struct MissionView: View {
                                     AstronautView(astronaut: crewMember.astronaut)
                                 } label: {
                                     CrewMemberView(crewMember: crewMember)
+                                    // challenge project 15 - Accessibility VoiceOver
+                                        .accessibilityElement()
+                                        .accessibilityLabel(crewMember.astronaut.name)
+                                        .accessibilityHint(crewMember.role)
+                                        .accessibilityAddTraits(.isButton)
                                 }
                             }
                         }

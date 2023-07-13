@@ -13,7 +13,8 @@ struct AstronautView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Image(astronaut.id)
+                // challenge project 15 - Accessibility VoiceOver
+                Image(decorative: astronaut.id)
                     .resizable()
                     .scaledToFit()
                     .clipShape(RoundedRectangle(cornerRadius: 50))

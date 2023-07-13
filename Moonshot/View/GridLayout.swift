@@ -23,7 +23,8 @@ struct GridLayout: View {
                             MissionView(mission: mission, astronauts: astrounauts)
                         } label: {
                             VStack {
-                                Image(mission.imageName)
+                                // challenge project 15 - Accessibility VoiceOver
+                                Image(decorative: mission.imageName)
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 100, height: 100)
@@ -46,6 +47,9 @@ struct GridLayout: View {
                                 RoundedRectangle(cornerRadius: 20)
                                     .stroke(.lightBackground)
                             }
+                            // challenge project 15 - Accessibility VoiceOver
+                            .accessibilityElement()
+                            .accessibilityLabel("\(mission.displayName), \(mission.formattedLaunchDate)")
                         }
                     }
                 }
